@@ -98,7 +98,7 @@ export default class Shop extends React.Component {
         } 
 
         return (                
-            <Content style={{ backgroundColor: '#010001', }}>
+            <Content style={{ backgroundColor: '#228B22', }}>
                 <Header style={{ backgroundColor: '#010001', }}>
                     <ImageBackground 
                         resizeMode='cover' 
@@ -118,7 +118,7 @@ export default class Shop extends React.Component {
                             value={this.state.keyword} 
                         />
                         <TouchableOpacity style={{ width: 50, height: 60, }} onPress={() => { this._fetchData() }}>
-                            <Icon name="magnify" size={28} style={{ color: '#979697', marginTop: 10, }} />
+                            <Icon name="magnify" size={28} style={{ color: 's', marginTop: 10, }} />
                         </TouchableOpacity>
                     </View>
                 </View>
